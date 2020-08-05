@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .resultados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #gifs_resultado{
+            display: flex;
+        }
+
+    }
+    .favoritos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #gifs_favoritos{
+            display: flex;
+        }
+
+    }
+}
+
+.gif{
+    margin: 5px 5px;
+    
+    & img{
+        width: 250px;
+        height: 250px;
+    }
+}
